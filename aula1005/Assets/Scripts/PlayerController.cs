@@ -5,11 +5,16 @@ using System.Net.Configuration;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.ProBuilder.MeshOperations;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
 
     public int coins = 0;
+
+
+
+    public TMP_Text coinText;
     
     // guarda uma referencia para os controles que criamos no inputAction
     private Controls _gameControls; 
@@ -174,7 +179,11 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Coin"))
         {
             coins++;
+            
+            coinText.text = coins.ToString();
             Destroy(other.gameObject);
         }
     }
+    
 }
+
