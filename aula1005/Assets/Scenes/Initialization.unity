@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 621347459}
+  - component: {fileID: 621347460}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -147,9 +148,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621347458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.423479, y: 6.644148, z: 1.3602471}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621347460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621347458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4023598c62c90545932b615f5489190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiName: GUI
+  levelName: Prototype
+  playerAndCameraPreFab: {fileID: 4698935076344517746, guid: 1f3595057de925b4983e941a7210fa57, type: 3}
