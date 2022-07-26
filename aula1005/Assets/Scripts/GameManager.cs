@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         // 1 - carregar a cena de interface e do jogo 
         SceneManager.LoadScene(guiName);
-        SceneManager.LoadScene(levelName,LoadSceneMode.Additive); // aditive carrega uma nova cena
+        //SceneManager.LoadScene(levelName,LoadSceneMode.Additive); // aditive carrega uma nova cena
 
         SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive).completed += operation =>
         {

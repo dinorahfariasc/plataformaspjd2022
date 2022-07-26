@@ -11,10 +11,8 @@ public class PlayerController : MonoBehaviour
 {
 
     public int coins = 0;
-
-
-
-    public TMP_Text coinText;
+    public int vidas = 0;
+    
     
     // guarda uma referencia para os controles que criamos no inputAction
     private Controls _gameControls; 
@@ -180,10 +178,20 @@ public class PlayerController : MonoBehaviour
         {
             coins++;
             
-            coinText.text = coins.ToString();
+            PlayerObserverManager.CoinsChanged(coins);
             Destroy(other.gameObject);
         }
+        
+        if (other.CompareTag("Vida"))
+        {
+            vidas++;
+            PlayerObserverManager.VidasChanged(vidas);
+            Destroy(other.gameObject);
+
+        }
     }
+    
+    
     
 }
 
