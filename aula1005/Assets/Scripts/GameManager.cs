@@ -93,5 +93,13 @@ public class GameManager : MonoBehaviour
 
 
     }
+
+   // private void StartGameFromInitialization()
+    //{
+      //  SceneManager.LoadScene("Splash");
+    //}
+    
+    //private void LoadMainMenu
+    
    
 }
