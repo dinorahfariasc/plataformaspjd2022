@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prototype.unity
     guid: 8ae63b8b5cfe20c4db7e661f1505b6e7
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 894b2ce223b95214886e6a938694aaab
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: ff6aaaa657a1eed4d8a6c5c9ded4aeaf
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 68e8ba68f7b01d641961c7b2fe92b201
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 49d3945e6696d8a44a23b05383a6cd90
   m_configObjects: {}
